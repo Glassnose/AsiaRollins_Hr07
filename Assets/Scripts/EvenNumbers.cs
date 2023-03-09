@@ -13,7 +13,7 @@ public class EvenNumbers : MonoBehaviour
             Debug.Log("this is my even count" + count);
         }
 
-        while (count > 0) ;
+        
 
 
     }
