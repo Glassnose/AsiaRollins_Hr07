@@ -7,10 +7,15 @@ public class EvenNumbers : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int sum = 22;
-        for (int count = 100; count >= 2; count--)
-            sum += count
-               
+        int count = 22;
+        {
+            count = count + 2;
+            Debug.Log("this is my even count" + count);
+        }
+
+        while (count > 0) ;
+
+
     }
 
     // Update is called once per frame
